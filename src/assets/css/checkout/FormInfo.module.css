@@ -1,0 +1,43 @@
+.inputGroup {
+    margin-bottom: 20px;
+}
+
+.lable {
+    color: var(--textSubColor);
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-style: italic;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+.loading {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    height: 50px !important;
+
+}
+
+.btnSubmit {
+    padding: 15px 40px;
+    font-size: 18px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: var(--backgroundColorBtn);
+    color: #fff;
+    font-style: italic;
+    transition: all 0.25s;
+}
+
+.btnSubmit:hover {
+    opacity: 0.8;
+}

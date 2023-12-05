@@ -1,0 +1,25 @@
+.mainTitle,
+.subTitle {
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.mainTitle {
+    margin-bottom: 15px;
+}
+
+.subTitle {
+    color: var(--textSubColor);
+    margin-bottom: 5px;
+}
+
+.link:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+    .browseCategory {
+        display: none;
+    }
+}

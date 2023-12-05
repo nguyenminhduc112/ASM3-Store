@@ -1,0 +1,42 @@
+.yourOrder {
+    background-color: #F4F5F9;
+    padding: 40px;
+}
+
+.title {
+    font-style: italic;
+    font-weight: 400 !important;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.textName,
+.textPrice {
+    flex: 1;
+}
+
+.textName {
+    font-weight: 400;
+}
+
+.textPrice {
+    color: var(--textSubColor);
+}
+
+.textTotal {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.priceTotal {
+    font-size: 19px;
+}

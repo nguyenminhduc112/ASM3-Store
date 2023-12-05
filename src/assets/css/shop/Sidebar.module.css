@@ -1,0 +1,44 @@
+.title,
+.labelBlack,
+.label,
+.link {
+    font-style: italic;
+}
+
+.title,
+.labelBlack,
+.label {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.labelBlack,
+.label {
+    padding: 10px 20px;
+    background-color: #F4F5F9;
+}
+
+.link {
+    display: block;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    color: var(--textSubColor);
+    text-decoration: none;
+}
+
+.link:hover {
+    color: var(--textMainColor);
+}
+
+.active {
+    color: rgb(159, 159, 22) !important;
+}
+
+.labelBlack {
+    background-color: #111111;
+    color: #fff
+}

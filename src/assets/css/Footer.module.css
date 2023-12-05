@@ -1,0 +1,28 @@
+.footer {
+    background-color: #111111;
+    color: #D4CDCC;
+    padding: 50px 0px;
+}
+
+.footer_title {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer_listItem {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer_item {
+    margin-bottom: 5px;
+}
+
+.footer_link {
+    color: #4F4E50;
+    text-decoration: none;
+}
+
+.footer_link:hover {
+    color: #86868a;
+}

@@ -1,0 +1,26 @@
+.navHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 30px;
+    background-color: #F4F5F9;
+}
+
+.title,
+.link {
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.title {
+    letter-spacing: 2px;
+}
+
+.link {
+    color: #000;
+    text-decoration: none;
+}
+
+.link.active {
+    color: var(--textSubColor);
+}

@@ -1,0 +1,14 @@
+.mainTitle,
+.subTitle {
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.mainTitle {
+    margin-bottom: 15px;
+}
+
+.subTitle {
+    color: var(--textSubColor);
+    margin-bottom: 5px;
+}
